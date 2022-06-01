@@ -1,0 +1,498 @@
+/*Seccion de Emily y Karina*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Navbar*/
+.navbar-home {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 1.2rem;
+}
+
+.container-home {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*navbar nuevo*/
+
+
+/*.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+por si se agrega un icon de  menu al lado, se agrega la img abajo del nav*/
+
+/*Fin del Navbar*/
+
+
+/*Inicio del home*/
+.banner-home {
+    display: flex;
+}
+
+.left-column-home {
+    flex-basis: 80%;
+}
+
+.left-column-home h1 {
+    font-size: 70px;
+}
+
+.left-column-home h3 {
+    font-size: 30px;
+}
+
+span {
+    color: #7EDB57;
+}
+
+.left-column-home p {
+    font-size: 17px;
+    color: #000;
+    margin: 50px 0;
+}
+
+.btn-home button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 3px solid #7EDB57;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #7EDB57;
+    background: transparent;
+}
+
+.btn-home .primary-btn-home {
+    background: linear-gradient(#7EDB57, #7EDB57);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.btn-home {
+    margin-bottom: 50px;
+}
+
+.social-icons-home {
+    width: 200px;
+    text-align: center;
+    opacity: 20;
+    position: relative;
+    margin-left: 160px;
+}
+
+.social-icons-home img {
+    height: 20px;
+    margin: 0 14px;
+}
+
+.social-icons-home::after {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: -160px;
+    top: 10px;
+}
+
+.col-home {
+    padding-left: 250px;
+}
+
+.card-home {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card1-home {
+    background-image: url(./img/foto5.jpeg);
+}
+
+.card2-home {
+    background-image: url(./img/foto5.jpeg);
+}
+
+.card3-home {
+    background-image: url(./img/foto5.jpeg);
+}
+
+.card4-home {
+    background-image: url(./img/foto5.jpeg);
+}
+
+/*final del home page*/
+ /*Inicio del responsive*/
+.h5-home {
+    color: transparent;
+}
+
+.card-home p {
+    color: transparent;
+}
+
+.logo-home img {
+   width: 150px;
+   height: 150px;
+}
+
+@media (max-width: 600px) {
+    .banner-home {
+      flex-direction: column;
+    }
+
+    .plate-container-home {
+        padding: 0;
+        display: flex;
+        overflow: scroll;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .banner-home {
+      flex-direction: column;
+    }
+
+    .plate-container-home {
+        padding: 0;
+        display: flex;
+    }
+  }
+
+  @media (max-width: 1236px) {
+    .banner-home {
+      flex-direction: column;
+    }
+
+    .plate-container-home {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  
+  /*final del responsive*/
+
+/*Seccion Maria y Gaby*/
+h5 {
+    color: transparent;
+}
+ 
+.card p {
+    color: transparent;
+}
+ 
+.logo img {
+    max-width: 100px;
+}
+ 
+@media (max-width: 600px) {
+    .banner {
+      flex-direction: column;
+    }
+ 
+    .plate-container {
+        padding: 0;
+        display: flex;
+        overflow: scroll;
+    }
+  }
+/*Inicio del home*/
+.banner {
+    display: flex;
+}
+ 
+.left-column {
+    flex-basis: 70%;
+}
+ 
+.left-column h1 {
+    font-size: 80px;
+}
+ 
+.left-column h3 {
+    font-size: 35px;
+}
+ 
+span {
+    color: #7EDB57;
+}
+ 
+.left-column p {
+    font-size: 17px;
+    color: #000;
+    margin: 50px 0;
+}
+ 
+.btn button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #7EDB57;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #7EDB57;
+    background: transparent;
+}
+ 
+.btn .primary-btn {
+    background: linear-gradient(#7EDB57, #7EDB57);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+ 
+.btn {
+    margin-bottom: 50px;
+}
+ 
+.social-icons {
+    width: 200px;
+    text-align: center;
+    opacity: 20;
+    position: relative;
+    margin-left: 160px;
+}
+ 
+.social-icons img {
+    height: 20px;
+    margin: 0 14px;
+}
+ 
+.social-icons::after {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: -160px;
+    top: 10px;
+}
+ 
+.col {
+    padding-left: 250px;
+}
+ 
+.card {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+ 
+.card1 {
+    background-image: url(./img/foto5.jpeg);
+}
+.card2 {
+    background-image: url(./img/foto5.jpeg);
+}
+ 
+.card3 {
+    background-image: url(./img/foto5.jpeg);
+}
+ 
+.card4 {
+    background-image: url(./img/foto5.jpeg);
+}
+ 
+/*final del home page*/
+ 
+h5 {
+    color: transparent;
+}
+ 
+.card p {
+    color: transparent;
+}
+ 
+.logo img {
+    max-width: 100px;
+}
+ 
+@media (max-width: 600px) {
+    .banner {
+      flex-direction: column;
+    }
+ 
+    .plate-container {
+        padding: 0;
+        display: flex;
+        overflow: scroll;
+    }
+  }
+ 
+@media (max-width: 900px) {
+    .banner {
+      flex-direction: column;
+    }
+ 
+    .plate-container {
+        padding: 0;
+        display: flex;
+    }
+  }
+@media (max-width: 1236px) {
+    .banner {
+      flex-direction: column;
+    }
+ 
+    .plate-container {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-gap: 20px;
+    display: flex;
+    align-items: center ;
+    background-color: #DDF58C;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.col {
+       display: flex;
+       background-color: #67C3E6;
+       margin: 10px;
+       width: 150px;
+       height: 150px;
+       flex-grow: 0;
+       flex-shrink: 0;
+       flex-basis: 10px;
+       text-align: center;
+}
+
+/*Seccion Cristal y Barbara*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: right;
+}
+.formu-reservas{
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: 50%;
+    height: 300px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(63, 105, 23);
+    border-width: thin;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    opacity: .80;
+    padding-right: 40px;
+}
+.boton-reservas{
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(150, 68, 95);
+    color: antiquewhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.imagen-fondo{
+    background: url(rsz_alex-haney-cahjzmvk5h4-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+} 
+.titulo-reservas {
+    text-align: center;
+    padding-top: 20px;
+}
+footer{
+    background-color: rgb(139, 247, 187);
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.caja{
+    text-align: center;
+    padding-top:30px;
+}
+.caja logo{
+    width: 40px;
+    height:40px;
+}
+.copyright{
+    grid-row: 3/4;
+    grid-column: 1/5 ;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+ img{
+    width: 40px;
+    height: 40px;
+}
+
+
