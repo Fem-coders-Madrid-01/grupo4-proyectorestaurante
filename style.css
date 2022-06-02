@@ -1,3 +1,6 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /*Seccion de Emily y Karina*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 * {
@@ -171,10 +174,12 @@ h2 {
     margin-bottom: 1.5%;
     font-size: 300%;
 }
- 
+ .textoBeCreative {
+ font-size: 20px;
+ }
+
 p {
     font-family: 'Fira Sans' sans-serif;
-    font-size: 150%;
 }
  
 .containerWelcome {
@@ -189,10 +194,13 @@ p {
     padding-right: 25px;
  
 }
+
+
  
 .colWelcome{
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;;
    
 }
  
@@ -207,7 +215,34 @@ p {
 .textoWelcome{
     margin-top: 0.3rem;
     text-align: center;
+    font-size: 18px;
 }
+
+.btnWelcome button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 3px solid #7EDB57;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #7EDB57;
+    background: transparent;  
+}
+
+.btnWelcome .primary-btn-Welcome {
+    background: linear-gradient(#7EDB57, #7EDB57);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.btnWelcome {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 .containerTestimonio {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -254,6 +289,30 @@ p {
     font-size: 150%;
  
 }
+
+.btninvitacionMenu button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 3px solid #7EDB57;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #7EDB57;
+    background: transparent;  
+}
+
+.btninvitacionMenu .primary-btn-invitacionMenu {
+    background: linear-gradient(#7EDB57, #7EDB57);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.btninvitacionMenu {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+margin-top: 50px;
+
+}
  
 .avatar {
  
@@ -264,47 +323,7 @@ p {
     margin: 0 auto;
  
     }
-    .containerMenu {
- 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        grid-gap: 20px;
-        grid-auto-rows: auto;
-             
-    }
-     
-     
-    .colMenu{
-        display: flex;
-        margin-left: 10px;
-        margin-right: 10px;
-     
-     
-    }
-     
-    .imagenMenu{
-      background-image:url(./img/logo_fondoblanco3.png);
-       height: 200px;
-       width: 200px;
-        background-size: cover;
-        margin: 0 auto;
-        border-radius: 50%;
-    }
-     
-    .alineacionTexto{
-        display:flex;
-        align-items: center;
-     
-    }
-    .textoMenu{
-        margin-top: 0.3rem;
-        text-align: center;
-        width: 200px;
-    }
     
-
-
 /*Seccion Cristal y Barbara*/
 body {
     font-family: Arial, Helvetica, sans-serif;
