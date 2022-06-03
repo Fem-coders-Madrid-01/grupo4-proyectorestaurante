@@ -32,6 +32,7 @@ MIT © G4Coders
 
 9. Colaboradores
 Emily Mosquera
+Ana Gabriela González
 Karina Perdomo
 María Martínez
 Cristal Lenny
