@@ -109,6 +109,12 @@ span {
     margin-bottom: 50px;
 }
 
+.btn-home .primary-btn-home:hover{
+        background: #3ba30f;
+        transition: .3s;
+        border-color: #3ba30f;
+    }
+
 .social-icons-home {
     width: 200px;
     text-align: center;
@@ -208,6 +214,7 @@ h2 {
     margin-bottom: 1.5%;
     font-size: 300%;
     color: #3ba30f;
+    opacity: .80;
 }
 
 .textoBeCreative {
@@ -220,7 +227,7 @@ p {
 
 .containerWelcome {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     grid-gap: 20px;
     grid-auto-rows: auto;
@@ -271,12 +278,16 @@ p {
     color: #fff;
 }
 
+.btnWelcome .primary-btn-Welcome:hover{
+        background: #3ba30f;
+        transition: .3s;
+        border-color: #3ba30f;
+    }
+
 .btnWelcome {
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
-
-
 
 .containerTestimonio {
     margin-top: 3rem;
@@ -309,7 +320,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(./vegetables-g56291a388_1920.jpg);
+    background-image: url(./img/vegetables-g56291a388_1920.jpg);
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -342,6 +353,12 @@ p {
     background: linear-gradient(#96154f, #96154f);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
     color: #fff;
+}
+
+.btninvitacionMenu .primary-btn-invitacionMenu:hover{
+        background: #3ba30f;
+        transition: .3s;
+        border-color: #3ba30f;
 }
 
 .btninvitacionMenu {
@@ -408,11 +425,16 @@ li {
     border: none;
     padding-left: 30px;
     padding-right: 30px;
+}
 
+.boton-reservas:hover{
+    background: #3ba30f;
+    transition: .3s;
+    border-color: #3ba30f;
 }
 
 .imagen-fondo {
-    background: url(rsz_alex-haney-cahjzmvk5h4-unsplash.jpg) no-repeat center center fixed;
+    background: url(./img/rsz_alex-haney-cahjzmvk5h4-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     background-blend-mode: darken;
     padding-top: 50px;
@@ -458,8 +480,8 @@ footer {
 }
 
 img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .logo-footer {
