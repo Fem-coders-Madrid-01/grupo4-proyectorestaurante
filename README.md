@@ -40,6 +40,7 @@ Karina Perdomo
 María Martínez
 Cristal L. Lightbourn
 Bárbara Santano
+Ana Gabriela González
 
 10. Sobre G4Coders
 Somos un equipo colaborativo de seis desarrolladoras, organizadas a través de metodologías ágiles (Scrum y Kanban).
