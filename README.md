@@ -38,7 +38,7 @@ MIT © G4Coders
 Emily Mosquera
 Karina Perdomo
 María Martínez
-Cristal Lenny
+Cristal L. Lightbourn
 Bárbara Santano
 
 10. Sobre G4Coders
