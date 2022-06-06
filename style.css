@@ -439,7 +439,7 @@ li {
 }
 
 .imagen-fondo {
-    background: url(./img/rsz_alex-haney-cahjzmvk5h4-unsplash.jpg) no-repeat center center fixed;
+    background: url(./img/rsz_alex-haney-cahjzmvk5h4-unsplash.jpg) fixed;
     background-size: cover;
     background-blend-mode: darken;
     padding-top: 50px;
