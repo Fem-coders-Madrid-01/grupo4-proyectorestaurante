@@ -377,11 +377,31 @@ p {
     margin: 0 auto;
 
 }
+.textoTestimonios { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    
+
+}
+
+.imagenTestimonios {
+    height: 350px;
+    background: url(./1.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
 
 /*Seccion Cristal y Barbara*/
-body {
-    font-family: 'Open Sans', sans-serif;
-}
 
 ul {
     list-style-type: none;
