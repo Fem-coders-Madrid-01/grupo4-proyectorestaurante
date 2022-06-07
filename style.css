@@ -14,17 +14,17 @@
     padding: 20px;
 }
 
-nav {
+.nav-menu {
     flex: 1;
     text-align: right;
 }
 
-nav ul {
+.nav-menu ul {
     display: inline-block;
     list-style-type: none;
 }
 
-nav ul li {
+.nav-menu ul li {
     display: inline-block;
     margin-right: 20px;
     transition: all .5;
@@ -42,6 +42,22 @@ nav ul li {
 .menu-home li a:hover {
     color: #3ba30f;
     transition: .3s;
+}
+
+.menu-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.menu-icon,
+#check {
+    display: none;
+}
+
+.logo-home img {
+    width: 120px;
+    height: 120px;
 }
 
 .container-home {
@@ -107,6 +123,7 @@ span {
 
 .btn-home {
     margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 .btn-home .primary-btn-home:hover{
@@ -114,29 +131,6 @@ span {
         transition: .3s;
         border-color: #3ba30f;
     }
-
-.social-icons-home {
-    width: 200px;
-    text-align: center;
-    opacity: 20;
-    position: relative;
-    margin-left: 160px;
-}
-
-.social-icons-home img {
-    height: 30px;
-    width: 30px;
-}
-
-.social-icons-home::after {
-    content: '';
-    width: 180px;
-    height: 1px;
-    background: #000;
-    position: absolute;
-    left: -160px;
-    top: 10px;
-}
 
 .col-home {
     padding-left: 250px;
@@ -516,6 +510,47 @@ iframe {
 
     .grid-layout {
         display: contents;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 50px;
+        right: 20px;
+    }
+
+    .nav-menu ul {
+        display: block;
+        position: fixed;
+        top: 125px;
+        left: -100%;
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .nav-menu ul li {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .nav-menu ul li:last-child {
+        padding: 1rem;
+    }
+
+    #check:checked~ ul {
+        left: 0;
+        transition: all .5s;
     }
 }
 
