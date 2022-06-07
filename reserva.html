@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-home">
+        <div class="navbar-home">
+          <div class="logo-home">
+            <img src="./img/logo_fondoblanco3.png" alt="Logo Veggie Creative" />
+          </div>
+          <div class="nav-menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="menu-icon"><img src="./img/menu.svg" alt=""></i>
+            </label>
+            <ul class="menu-home">
+              <li><a class="active" href="index.html">Inicio</a></li>
+              <li><a href="#">Conócenos</a></li>
+              <li><a href="#">Menú</a></li>
+              <li><a href="#">Reservas</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+    <section id="formulario">
+        <div class="imagen-fondo">
+          <div class="formu-reservas">
+            <form action="">
+              <h1 class="titulo-reservas">HAZ TU RESERVA</h1>
+              <ul>
+                <li>
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre-usuario" />
+                </li>
+                <li>
+                  <label for="mail">Email:</label>
+                  <input type="email" id="mail" name="mail-usuario" />
+                </li>
+                <li>
+                  <label for="comensales">Pax:</label>
+                  <input type="number" id="comensales" name="numero-comensales" />
+                </li>
+                <li>
+                  <label for="fecha">Fecha:</label>
+                  <input type="date" id="fecha-reserva" name="fecha" />
+                </li>
+                <li>
+                  <label for="hora">Hora:</label>
+                  <input type="time" name="hora" id="hora-reserva" />
+                </li>
+                <li>
+                  <label for="msg">Mensaje:</label>
+                  <textarea id="msg" name="mensaje-usuario">Comentarios</textarea>
+                </li>
+                <li class="button">
+                  <button class="boton-reservas" type="submit">
+                    ¡RESERVA YA!
+                  </button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="grid-layout">
+          <div class="caja logo">
+            <img class="logo-footer" src="img/logo_fondoblanco3.png" alt="logo Veggie Creative" />
+          </div>
+          <div class="caja horario">
+            <h3>HORARIO</h3>
+              <ul class="horario">
+                <li>MARTES A JUEVES   13h a 23h</li>
+                <li>VIERNES A DOMINGO 13h a 24h</li>
+              </ul>
+          </div>
+          <div class="caja mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12153.900163777902!2d-3.6863441!3d40.398326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe1297343074f52c0!2sTalent%20Garden%20Madrid!5e0!3m2!1ses!2ses!4v1654043331088!5m2!1ses!2ses"
+              width="150" height="150" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="caja siguenos">
+            <h3>SIGUENOS</h3>
+            <a href="https://www.facebook.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/747/747374.png" alt="icono facebook" /> </a><br />
+            <a href="https://www.instagram.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/725/725339.png" alt="icono Instagram" /> </a><br />
+            <a href="https://www.twitter.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/466/466963.png" alt="icono Twitter" />
+            </a>
+          </div>
+          <div class="caja copyright">
+            <small>© G4Coders 2022 - Todos los Derechos Reservados<br>
+              c/ Juan de Mariana, 15 - 28035 Madrid
+            </small>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
