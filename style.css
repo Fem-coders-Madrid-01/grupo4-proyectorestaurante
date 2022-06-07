@@ -492,9 +492,8 @@ img {
 iframe {
     border-radius: 50px;
 }
-
-.caja direccion {
-    padding-top: 20px;
+.horario li {
+text-align: center;
 }
 
 @media (max-width: 600px) {
