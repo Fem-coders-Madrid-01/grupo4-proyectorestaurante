@@ -654,3 +654,229 @@ text-align: center;
         justify-content: center;
     }
 }
+/* conocenos*/
+.equipo{
+    text-align: center;
+    color: #3ba30f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+    
+ }
+ .fotos-empleados{
+     height: 100px;
+     width: 150px;
+     margin-top: 10px;
+     border-radius: 100%;
+  }
+  .grid-contenedor{
+     display:grid;
+     grid-template-columns: 20% 20% 20%;
+     grid-template-rows: 40% 40%;
+     justify-content: center;
+     width: 100%;
+     font-family: 'Open Sans', sans-serif;
+  }
+.tarjetas-empleados{
+justify-content: center;
+border: outset 3px #96154f;
+margin-top:30px;
+margin-right: 50px;
+text-align: center;
+border-radius: 10%;
+padding-bottom: 10px;
+box-shadow: 10px 10px 8px #a6a3a5;
+}
+/*Seccion Maria y Gaby*/
+
+.containerCarta {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.textoCarta {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.container-Carta {
+
+    background-size: cover;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    font-size: 300%;
+    color: #3ba30f;
+    opacity: .80;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    font-size: 200%;
+    color: #3ba30f;
+    opacity: .80;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+   
+    margin-bottom: 1.5%;
+    font-size: 100%;
+    color: #0b0b0b;
+    opacity: .80;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.containerIngredientes {
+
+    background-size: cover;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.containerT {
+
+    background-size: cover;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.containerTamaño {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-items: center;
+   
+}
+
+.containerbase {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+
+
+.containerProteina {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.containerComplementos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.containerSalsas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100% 25%;
+    gap: 20px;
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.containerToque {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.colPlato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+.imagenPlato {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.imagenTamano {
+    width: 80px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 60%;
+}
+
+.textoIngredientes {
+    margin-top: 0.3rem;
+    text-align: center;
+    font-size: 15px;
+    color: #96154f;
+
+}
