@@ -210,15 +210,13 @@ span {
 
 }
 
-h2 {
+.h3BeCreative {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 1.5%;
-    font-size: 300%;
-    color: #3ba30f;
-    opacity: .80;
-    background-image: url(./img/perejil.png);
+    color:  #3ba30f;
+    font-size: 40px;
 }
 
 .textoBeCreative {
@@ -376,38 +374,81 @@ p {
 
 }
 
-.avatar {
+/*TESTIMONIOS*/
 
-    width: 80px;
-    height: 80px;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-
-}
-.textoTestimonios { 
-    font-family: 'Open Sans', sans-serif;
-    font-size: 200%;
+.tituloTestimonio p {
+    margin: 0;
     text-align: center;
-    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
 
 }
+
 
 .imagenTestimonios {
-    height: 350px;
-    background: url(./1.png);
+    height: 150px;
+    background: url(./img/Diseño\ sin\ título.png);
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-bottom: 200px;
-    padding-right: 100px;
+    padding-bottom: 400px;
+    padding-left: 400px;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   
+    flex-direction: column;   
+    
 }
+
+.containerTestimonio{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.slider {
+    width: 45%;
+    height: 60%;
+    overflow: hidden; 
+    margin-right: 250px; 
+    margin-top: 80px;
+     
+    
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+}
+
+
+.slider li {
+    width: 50%;
+    height: 50%;
+    list-style: none;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
 
 /*Seccion Cristal y Barbara*/
 
