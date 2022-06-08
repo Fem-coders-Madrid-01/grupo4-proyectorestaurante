@@ -90,7 +90,9 @@ por si se agrega un icon de  menu al lado, se agrega la img abajo del nav*/
 }
 
 .left-column-home h3 {
-    font-size: 30px;
+    color: #96154f;
+    font-size: 40px;
+    margin-left:200px;
 }
 
 span {
@@ -419,6 +421,7 @@ li {
     text-align: right;
 }
 
+
 .formu-reservas {
     background-color: rgb(255, 255, 255);
     background-blend-mode: 50%;
@@ -434,6 +437,7 @@ li {
     padding-right: 40px;
 }
 
+  
 .boton-reservas {
     text-align: center;
     height: 50px;
@@ -518,6 +522,12 @@ img {
 iframe {
     border-radius: 50px;
 }
+
+
+.caja .horario-caja{
+margin-top: 30px;
+}
+
 .horario li {
 text-align: center;
 }
