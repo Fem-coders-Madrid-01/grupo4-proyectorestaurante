@@ -477,7 +477,9 @@ li {
     opacity: .80;
     padding-right: 40px;
 }
-
+.formu-reservas input{
+        width: 175px;
+}
   
 .boton-reservas {
     text-align: center;
@@ -487,7 +489,7 @@ li {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     display: block;
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
     font-size: large;
     font-weight: bold;
@@ -515,6 +517,7 @@ li {
 .titulo-reservas {
     text-align: center;
     padding-top: 20px;
+    margin-left: 50px;
 }
 
 footer {
