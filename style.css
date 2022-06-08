@@ -84,8 +84,9 @@ por si se agrega un icon de  menu al lado, se agrega la img abajo del nav*/
     flex-basis: 80%;
 }
 
-.left-column-home h1 {
-    font-size: 70px;
+.left-column-home img {
+    width: 550px;
+    height: 250px; 
 }
 
 .left-column-home h3 {
