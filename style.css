@@ -127,6 +127,11 @@ span {
     margin-left: 100px;
 }
 
+.btn-home a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .btn-home .primary-btn-home:hover{
         background: #3ba30f;
         transition: .3s;
