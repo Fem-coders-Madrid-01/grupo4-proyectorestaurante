@@ -86,13 +86,13 @@ por si se agrega un icon de  menu al lado, se agrega la img abajo del nav*/
 
 .left-column-home img {
     width: 550px;
-    height: 250px; 
+    height: 250px;
 }
 
 .left-column-home h3 {
     color: #96154f;
     font-size: 40px;
-    margin-left:200px;
+    margin-left: 150px;
 }
 
 span {
@@ -129,16 +129,16 @@ span {
     margin-left: 100px;
 }
 
-.btn-home a{
+.btn-home a {
     color: #fff;
     text-decoration: none;
 }
 
-.btn-home .primary-btn-home:hover{
-        background: #3ba30f;
-        transition: .3s;
-        border-color: #3ba30f;
-    }
+.btn-home .primary-btn-home:hover {
+    background: #3ba30f;
+    transition: .3s;
+    border-color: #3ba30f;
+}
 
 .col-home {
     padding-left: 200px;
@@ -215,7 +215,7 @@ span {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 1.5%;
-    color:  #3ba30f;
+    color: #3ba30f;
     font-size: 40px;
 }
 
@@ -283,17 +283,18 @@ p {
     color: #fff;
 }
 
-.btnWelcome .primary-btn-Welcome:hover{
-        background: #3ba30f;
-        transition: .3s;
-        border-color: #3ba30f;
-    }
+.btnWelcome .primary-btn-Welcome:hover {
+    background: #3ba30f;
+    transition: .3s;
+    border-color: #3ba30f;
+}
 
 .btnWelcome {
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.btnWelcome a{
+
+.btnWelcome a {
     color: #fff;
     text-decoration: none;
 }
@@ -364,10 +365,10 @@ p {
     color: #fff;
 }
 
-.btninvitacionMenu .primary-btn-invitacionMenu:hover{
-        background: #3ba30f;
-        transition: .3s;
-        border-color: #3ba30f;
+.btninvitacionMenu .primary-btn-invitacionMenu:hover {
+    background: #3ba30f;
+    transition: .3s;
+    border-color: #3ba30f;
 }
 
 .btninvitacionMenu {
@@ -378,9 +379,9 @@ p {
 
 }
 
-.btninvitacionMenu a{
-        color: #fff;
-        text-decoration: none;
+.btninvitacionMenu a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /*TESTIMONIOS*/
@@ -403,11 +404,11 @@ p {
     padding-bottom: 400px;
     padding-left: 400px;
     justify-content: center;
-    flex-direction: column;   
-    
+    flex-direction: column;
+
 }
 
-.containerTestimonio{
+.containerTestimonio {
     display: flex;
     justify-content: flex-end;
     margin: 0;
@@ -417,11 +418,11 @@ p {
 .slider {
     width: 45%;
     height: 60%;
-    overflow: hidden; 
-    margin-right: 250px; 
+    overflow: hidden;
+    margin-right: 250px;
     margin-top: 80px;
-     
-    
+
+
 }
 
 .slider ul {
@@ -444,17 +445,37 @@ p {
 }
 
 @keyframes cambio {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
+    0% {
+        margin-left: 0;
+    }
 
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
+    20% {
+        margin-left: 0;
+    }
 
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
+    25% {
+        margin-left: -100%;
+    }
 
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
 }
 
 
@@ -485,10 +506,11 @@ li {
     opacity: .80;
     padding-right: 40px;
 }
-.formu-reservas input{
-        width: 175px;
+
+.formu-reservas input {
+    width: 175px;
 }
-  
+
 .boton-reservas {
     text-align: center;
     height: 50px;
@@ -507,7 +529,7 @@ li {
     padding-right: 30px;
 }
 
-.boton-reservas:hover{
+.boton-reservas:hover {
     background: #3ba30f;
     transition: .3s;
     border-color: #3ba30f;
@@ -576,95 +598,17 @@ iframe {
 }
 
 
-.caja .horario-caja{
-margin-top: 30px;
+.caja .horario-caja {
+    margin-top: 30px;
 }
 
 .horario li {
-text-align: center;
+    text-align: center;
 }
 
-@media (max-width: 600px) {
-    .banner-home {
-        flex-direction: column;
-    }
 
-    .plate-container-home {
-        padding: 0;
-        display: flex;
-        overflow: scroll;
-    }
-
-    .grid-layout {
-        display: contents;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .checkbtn {
-        display: block;
-    }
-
-    .menu-icon {
-        display: block;
-        position: fixed;
-        top: 50px;
-        right: 20px;
-    }
-
-    .nav-menu ul {
-        display: block;
-        position: fixed;
-        top: 125px;
-        left: -100%;
-        background: #fff;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-        cursor: pointer;
-    }
-
-    .nav-menu ul li {
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-
-    .nav-menu ul li:last-child {
-        padding: 1rem;
-    }
-
-    #check:checked~ ul {
-        left: 0;
-        transition: all .5s;
-    }
-}
-
-@media (max-width: 900px) {
-    .banner-home {
-        flex-direction: column;
-    }
-
-    .plate-container-home {
-        padding: 0;
-        display: flex;
-    }
-}
-
-@media (max-width: 1236px) {
-    .banner-home {
-        flex-direction: column;
-    }
-
-    .plate-container-home {
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-}
 /* conocenos*/
-.equipo{
+.equipo {
     text-align: center;
     color: #3ba30f;
     font-family: 'Open Sans', sans-serif;
@@ -672,40 +616,45 @@ text-align: center;
     font-weight: bold;
     margin-top: 5%;
     margin-bottom: 0.5%;
-    
- }
- .fotos-empleados{
-     height: 100px;
-     width: 150px;
-     margin-top: 10px;
-     border-radius: 100%;
-  }
-  .grid-contenedor{
-     display:grid;
-     grid-template-columns: 20% 20% 20%;
-     grid-template-rows: 50% 50%;
-     justify-content: center;
-     width: 100%;
-     font-family: 'Open Sans', sans-serif;
-  }
-.tarjetas-empleados{
-justify-content: center;
-border: outset 3px #96154f;
-margin-top:30px;
-margin-right: 50px;
-text-align: center;
-border-radius: 10%;
-padding-bottom: 10px;
-box-shadow: 10px 10px 8px #a6a3a5;
+
 }
-.tarjetas-empleados p{
+
+.fotos-empleados {
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tarjetas-empleados {
+    justify-content: center;
+    border: outset 3px #96154f;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 10%;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 8px #a6a3a5;
+}
+
+.tarjetas-empleados p {
     font-size: small;
 }
+
 /*Seccion Maria y Gaby*/
 
 .containerCarta {
     display: flex;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     margin-bottom: 5px;
 }
@@ -744,13 +693,14 @@ h3 {
     color: #3ba30f;
     opacity: .80;
 }
+
 h4 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-   
+
     margin-bottom: 1.5%;
     font-size: 100%;
-    color: #0b0b0b;
+    color: #fff;
     opacity: .80;
 }
 
@@ -791,7 +741,7 @@ p {
     padding-left: 25px;
     padding-right: 25px;
     justify-items: center;
-   
+
 }
 
 .containerbase {
@@ -804,7 +754,7 @@ p {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-   
+
 }
 
 
@@ -856,6 +806,7 @@ p {
     padding-left: 25px;
     padding-right: 25px;
 }
+
 .colPlato {
     display: flex;
     flex-direction: column;
@@ -891,4 +842,178 @@ p {
     font-size: 15px;
     color: #96154f;
 
+}
+
+@media screen and (max-width: 500px) {
+    .banner-home {
+        flex-direction: column;
+    }
+
+    .plate-container-home {
+        padding: 0;
+        display: flex;
+        overflow: scroll;
+    }
+
+    .grid-layout {
+        display: contents;
+    }
+
+    .left-column-home img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .left-column-home .h3-home {
+        margin-left: 50px;
+    }
+
+    .left-column-home .btn-home {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .containerWelcome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invitacionMenu {
+        width: 100%;
+    }
+
+    
+    .letra-invitacion {
+        text-align: center;
+    }
+    .imagenTestimonios{
+        display: none;
+    }
+    
+    .containerCarta {
+        text-align: center;
+    }
+
+    .containerTamaño {
+        display: contents;
+    }
+
+    .containerbase {
+        overflow: scroll;
+    }
+
+    .containerProteina {
+        overflow: scroll;
+    }
+
+    .containerComplementos {
+        overflow: scroll;
+    }
+
+    .containerSalsas {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .containerToque {
+        overflow: scroll;
+    }
+
+    .grid-contenedor {
+        display: flex;
+        overflow: scroll;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 50px;
+        right: 20px;
+    }
+
+    .nav-menu ul {
+        display: block;
+        position: fixed;
+        top: 125px;
+        left: -100%;
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .nav-menu ul li {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .nav-menu ul li:last-child {
+        padding: 1rem;
+    }
+
+    #check:checked~ul {
+        left: 0;
+        transition: all .5s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .banner-home {
+        flex-direction: column;
+    }
+
+    .plate-container-home {
+        padding: 0;
+        display: flex;
+    }
+
+    .grid-layout {
+        display: contents;
+    }
+
+    .left-column-home img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .invitacionMenu {
+        width: 100%;
+    }
+    
+    .letra-invitacion {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1265px) {
+    .banner-home {
+        flex-direction: column;
+    }
+
+    .plate-container-home {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-column-home h3 {
+        text-align: initial;
+    }
+
+    .grid-contenedor {
+        display: flex;
+        overflow: scroll;
+    }
 }
