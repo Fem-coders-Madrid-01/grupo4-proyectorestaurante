@@ -690,7 +690,7 @@ h3 {
     margin-top: 5%;
     margin-bottom: 1.5%;
     font-size: 200%;
-    color: #3ba30f;
+    color: #96154f;
     opacity: .80;
 }
 
@@ -700,7 +700,7 @@ h4 {
 
     margin-bottom: 1.5%;
     font-size: 100%;
-    color: #fff;
+    color: #000;
     opacity: .80;
 }
 
@@ -948,7 +948,7 @@ p {
         height: 100vh;
         right: 0;
         cursor: pointer;
-        z-index: 100;
+       z-index: 100;
     }
 
     .nav-menu ul li {
